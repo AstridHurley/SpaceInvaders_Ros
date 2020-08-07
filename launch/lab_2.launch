@@ -1,0 +1,4 @@
+<launch>
+  <node name="space_invader_world" pkg="space_invader" type="world.py" />
+  <node name="agent" pkg="space_invader" type="viewer.py" />
+</launch>
